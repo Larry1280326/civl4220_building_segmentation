@@ -1,8 +1,5 @@
 # civl4220_building_segmentation
 
-## Download the dataset
-Please download the Massachusetts Buildings Dataset from this [kaggle page](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/data?select=png) and then unzip it . 
-
 ## How to use
 ### run it on Google Colab
 Download the Jupyter Notebook `demo.py` and upload it to the Google Colab. Change the following code block to what you want to build before running it.
@@ -19,11 +16,15 @@ model = BuildingSegModel(
 # Move the model to the device
 model.model.to(DEVICE)
 ```
+
 ### run it locally
 1. Step 1: Download the dataset
 Please download the Massachusetts Buildings Dataset from this [kaggle page](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/data?select=png) and then unzip it, put the whole folder under the same directory as the three python file. 
 
-If you want to run locally, please install Anaconda and create an environment. Then, install all the libraries in `requirement.txt`.
+2. Step2: create an environment
+Please install Anaconda and create an environment. Then, install all the libraries in `requirement.txt`.
+
+3. Step3: change the code in `run.py`
 In `run.py`, change the following two lists in lines 44-45  to all combinations of encoder and decoder you want to test.
 ```{python}
 ARCHS = ["UNETPLUSPLUS","UNET", "FPN"] # change decoder
