@@ -2,7 +2,7 @@
 This repo is for submission for CIVL4220 building segmentation project.
 ## How to use
 ### Run it on Google Colab (recommended)
-Download the Jupyter Notebook `demo.py` and upload it to the Google Colab. Change the following code block to what you want to build before running it.
+Download the Jupyter Notebook `demo.py` and upload it to the Google Colab. Change the following code block to whatever you want to build before running it.
 ```{python}
 NUM_EPOCHS = 80
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
