@@ -1,7 +1,7 @@
 # civl4220_building_segmentation
 This repo is for submission for CIVL4220 building segmentation project.
 ## How to use
-### run it on Google Colab
+### Run it on Google Colab (recommended)
 Download the Jupyter Notebook `demo.py` and upload it to the Google Colab. Change the following code block to what you want to build before running it.
 ```{python}
 NUM_EPOCHS = 80
@@ -17,7 +17,7 @@ model = BuildingSegModel(
 model.model.to(DEVICE)
 ```
 
-### run it locally
+### Run it locally
 1. Step 1: Download the dataset
 Please download the Massachusetts Buildings Dataset from this [kaggle page](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset/data?select=png) and then unzip it, put the whole folder under the same directory as the three python file. 
 
