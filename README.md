@@ -1,5 +1,5 @@
 # civl4220_building_segmentation
-
+This repo is for submission for CIVL4220 building segmentation project.
 ## How to use
 ### run it on Google Colab
 Download the Jupyter Notebook `demo.py` and upload it to the Google Colab. Change the following code block to what you want to build before running it.
