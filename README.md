@@ -2,7 +2,7 @@
 This repo is for submission for CIVL4220 building segmentation project.
 ## How to use
 ### Run it on Google Colab (recommended)
-Download the Jupyter notebook `demo.ipynb` and the file `kaggle.json`. Upload the notebook to Google Colab. After running the first code block, it should ask you to upload the `kaggle.json`. Upload it accordingly. Then, you can change the following code block to whatever you want to build before running it.
+Download the Jupyter notebook `demo.ipynb` and the file `kaggle.json`. Upload the notebook to Google Colab. After running the first code block, it should ask you to upload the `kaggle.json` file. Upload it accordingly. Then, you can change the following code block to whatever you want to build before running it.
 ```{python}
 NUM_EPOCHS = 80
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
