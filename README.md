@@ -34,5 +34,7 @@ ARCHS = ["UNETPLUSPLUS","UNET", "FPN"] # change decoder
 ENCODER_NAMES = ["resnet34", "efficientnet-b4", "mobilenet_v2", "mit_b3"] # change encoder
 ```
 
-
-
+4. Step 4: run `run.py`
+```{python}
+python run.py
+```
